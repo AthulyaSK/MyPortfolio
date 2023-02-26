@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    </style>
+  </head>
+<body>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Athulya Surendran Krishnaleela</b></h1>
+    <img src="Pictures\Surendran_Athulya_MSBA.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i><a href="file:///C:/Users/Patron/OneDrive%20-%20UW-Madison/04%20UW%20Resume/Resumes%20-%20full%20tme%20job/Athulya%20Surendran%20Krishnaleela_CV.pdf">Download Resume</a>
+    </button>
+    <p><br><a href="https://github.com/AthulyaSK">Github</a></br></p>
+    <p><br><a href="https://www.linkedin.com/in/athulya-sk/">LinkedIn</a></br></p>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+     <div style="display: flex; flex-wrap:wrap;">
+      <div style="flex:1 0 calc(50% - 20px); margin-right: 20px;">
+        <a href="https://github.com/AthulyaSK/Supply-chain-optimization">Supply Chain Optimization (Excel and Python)</a>
+        <p><img src="C:\Users\Patron\Pictures\Supply chain project.png" style="width:100%"></p>
+        <p>Created a comprehensive optimization solution utilizing Excel and Python to minimize total costs, inclusive of manufacturing, shipping and operating expenses, while ensuring fulfillment of demand and adherence to warehouse constraints.</p>
+      </div>
+      <div style="flex:1 0 calc(50% - 20px); margin-right: 20px;"> 
+        <a href="https://github.com/AthulyaSK/Advanced-Regression">Advanced Regression (Python)</a>
+        <p><img src="C:\Users\Patron\Pictures\Advanced Regression.png" style="width:100%"></p>
+        <p>Ranked 1806 out of 4000 in Kaggle data science competition analyzing decline in home sales. Developed predictive models using 4 ML techniques (linear regression, lasso regression, random forest, and gradient boosting) in Python, comparing RMS to identify best model.</p> 
+      </div>
+      <div style="flex:1 0 calc(50% - 20px);"> 
+        <a href="https://github.com/AthulyaSK/Data-Inflation-Trends">US Covid Data Analysis (Tableau)</a>
+        <p><img src="C:\Users\Patron\Pictures\Tableau.png" style="width:100%"></p>
+        <p>Analyzed COVID data in the USA from 2020-2022 to understand distribution of total number of covid cases by state with death count and created a Tableau dynamic Tableau dashboard to showcase the same.</p> 
+      </div>
+      <div style="flex:1 0 calc(50% - 20px);"> 
+        <a href="https://github.com/AthulyaSK/Data-Inflation-Trends">Inflation Trend Analysis (SQL/Snowflake)</a>
+        <p><img src="C:\Users\Patron\Pictures\top10state 2015 to 2018.JPG" style="width:100%"></p>
+        <p>Analyzed Yelp data in SQL/Snowflake from 2005-2018 to understand inflationary trends in the US. Identified top 10 states with highest inflation, top 3 inflationary business categories, and top 5 businesses within the most inflationary category.</p> 
+      </div>
+     </div>
+    <!-- End grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>I am a highly motivated individual with a passion for data science and analytics for using data to solve complex business problems. I am a Master of Science in Business Analytics candidate from the University of Wisconsin-Madison and hold a Bachelor's degree in Electrical and Electronics Engineering from the National Institute of Technology, Calicut.
+I have a wide range of technical skills, including Python, R, SQL, Tableau, and many other tools, and have experience in machine learning, optimization, and data analysis. In my previous professional experience, I have worked in consulting, market research, and IT operations, leading workshops, conducting research, and mentoring colleagues.
+My strength lies in my ability to apply my technical skills to real-world problems and communicate complex ideas in a clear and concise manner. I am a quick learner, adaptable, and passionate about helping organizations use data to make informed decisions.
+I look forward to collaborating with individuals and organizations to achieve their goals through data-driven insights.
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Tools</p>
+    <div class="w3-light-grey">
+      <ul style ="list-style:none;">
+	<span style ="display:inline-block;">&#x2022; Python</span>
+       <span style ="display:inline-block;">&#x2022; R</span>
+       <span style ="display:inline-block;">&#x2022; SQL</span>
+       <span style ="display:inline-block;">&#x2022; Advanced Excel</span>
+       <span style ="display:inline-block;">&#x2022; Tableau</span>
+       <span style ="display:inline-block;">&#x2022; DBT</span>
+       <span style ="display:inline-block;">&#x2022; Google BigQuery</span>
+       <span style ="display:inline-block;">&#x2022; Amazon S3</span>
+       <span style ="display:inline-block;">&#x2022; Amazon EMR</span>
+       <span style ="display:inline-block;">&#x2022; AWS Sagemaker</span>
+       <span style ="display:inline-block;">&#x2022; Amazon Redshift</span>
+       <span style ="display:inline-block;">&#x2022; Fivetran</span>
+       <span style ="display:inline-block;">&#x2022; Snowflake</span>
+       <span style ="display:inline-block;">&#x2022; SAS</span>
+       <span style ="display:inline-block;">&#x2022; SAP</span>
+       <span style ="display:inline-block;">&#x2022; Looker Studio</span>
+       <span style ="display:inline-block;">&#x2022; Data Robot</span>
+       <span style ="display:inline-block;">&#x2022; PowerBI</span>
+       <span style ="display:inline-block;">&#x2022; Azure Databricks</span>
+       <span style ="display:inline-block;">&#x2022; Jira</span>
+      </ul>
+    </div>
+    <style>
+      ul li::before {
+        content:"•";
+        padding-right:5px;
+      }
+    </style>
+    <p class="w3-wide">Satistical Methods</p>
+    <div class="w3-light-grey">
+      <ul style ="list-style:none;">
+	<span style ="display:inline-block;">&#x2022; Hypothesis Testing</span>
+       <span style ="display:inline-block;">&#x2022; A/B Testing</span>
+       <span style ="display:inline-block;">&#x2022; Sample size estimation</span>
+       <span style ="display:inline-block;">&#x2022; Monte Carlo Simulation</span>
+       <span style ="display:inline-block;">&#x2022; Markov Chains</span>
+       <span style ="display:inline-block;">&#x2022; Prescriptive analysis</span>
+       <span style ="display:inline-block;">&#x2022; Optimization</span>
+       <span style ="display:inline-block;">&#x2022; General Additive Methods</span>
+       <span style ="display:inline-block;">&#x2022; Decision trees</span>
+       <span style ="display:inline-block;">&#x2022; Clustering</span>
+       <span style ="display:inline-block;">&#x2022; Time series analysis</span>
+       <span style ="display:inline-block;">&#x2022; Neural network</span>
+       <span style ="display:inline-block;">&#x2022; Regressions</span>
+       <span style ="display:inline-block;">&#x2022; PCA</span>
+       <span style ="display:inline-block;">&#x2022; Data mining</span>
+       <span style ="display:inline-block;">&#x2022; Agile and Scrum planning</span>
+       <span style ="display:inline-block;">&#x2022; Database management</span>
+      </ul>
+    </div>
+    <style>
+      ul li::before {
+        content:"•";
+        padding-right:5px;
+      }
+    </style>
+    <h3 class="w3-padding-16">Education</h3>
+    <h4 class="w3-wide">University of Wisconsin-Madison, Wisconsin School of Business, Madison, WI</h4>
+    <p>Master of Science in Business Analytics Candidate (STEM OPT) (2022 - Present)</p>
+    <p>&#x2022; Key Coursework: Machine Learning, Prescriptive Modelling, Causal Methods, Cloud Technology, Applied Temporal Data Analytics, Data Visualization, Data Technology, IT in Supply Chains, Product Management, Project Management</br>
+&#x2022; Evaluation and Needs Analyst: <a href="https://ctlm.wisc.edu/staff/surendran-krishnaleela-athulya/">CTLM, Wisconsin</a>; Initiated and conducted quantitative surveys & qualitative structured interviews to solicit insights from UW-Madison faculty & instructors. Established impactful curricula based on outcomes.</p>
+    <h4 class="w3-wide">National Institute of Technology, Calicut</h4>
+    <p>Bachelor of Technology in Electrical and Electronics Engineering (2015 - 2019)</p>
+    <p>&#x2022; Unwired Club, Engine Sub Team Member (2016-2018): Organized four workshops focused on solid works and Mars Rover. Conducted Lumos event tech tour for high school students in government schools</br>
+&#x2022; Institute of Electrical and Electronics Engineers, Member (2015-2017): Enlisted in solar electrification training program arranged by IEEE Malabar subsection. Volunteered for workshops on MSP430, Energia and MATLAB</br>
+    </p>
+    
+    <h3 class="w3-padding-16">Professional Experience</h3>
+    <h4 class="w3-wide">Generac, US</h4>
+    <p>Data Scientist, Consulting Practicum (02/23 - Present)</p>
+    <p>&#x2022; Integrating MISO data into Power Insights platform geospatial visualization tool to track demand and supply of electricity and identify energy prices at different times at different locations to optimize DERs.
+</br>&#x2022; Developing capacity management model including breakeven analysis comparing pricing for peak and non-peak times while also designing demand response system leveraging real-time data for optimized power distribution to increase cost-effectiveness and improve decision-making in energy management.</p>
+    <h4 class="w3-wide">ZS Associates, Bengaluru, India</h4>
+    <p>Decision Analytics Associate - Market Research in Customer Insights pod (05/20 - 07/22)</p>
+    <p>&#x2022; Led workshop development with client marketing teams to improve sales force effectiveness and market share for $902M HCV drug leading to brand perception improvement of 25%</br>
+&#x2022; Designed behavioral science A/B testing research to identify subconscious biases and barriers leading to COVID vaccine hesitancy among 7000 individuals across seven countries; created tactics and quantified an expected hesitant consumer proportion to receive vaccine resulting in leadership recognition and purchase by six Fortune 500 pharmaceuticals.</br>
+&#x2022; Created patient journeys across five countries for futuristic therapy in rare disease area to inform therapy commercialization efforts; improved patient experience by 1.5x by understanding pain points, decision drivers and barriers in treatment phase.</br>
+&#x2022; Conducted advanced statistical analysis using R-Studio, Excel, and ZS proprietary tools; undertook integration of consumer behavior research with message testing analysis to determine impactful messaging among target population and reduce client promotion cost by 50%.</br> 
+&#x2022; Facilitated learning sessions for twelve newcomers for Excel and ZS internal tools; mentored four new associates in pod.</br>
+    </p>
+    <h4 class="w3-wide">M.H.Alshaya.Co, Bengaluru, India</h4>
+    <p>Applications System Coordinator - IT Operations (07/19 - 04/20)</p>
+    <p>&#x2022; Implemented and managed SQL database to support retail products in 2500+ stores spread across 15 countries, resulting in streamlined and efficient data infrastructure.</br>
+&#x2022; Collaborated with eight internal teams to monitor, optimize, and configure operational flow for in-built store application 'Ares' using SQL leading to enhanced decision-making processes and 20% reduction in operational errors.</br>
+&#x2022; Led project plan development, outlining steps for developing customer-specific Ares functional flow; consulted with users to gather information about operational requirements such as needs, objectives, and features, resulting in successful project delivery and 15% improvement in customer satisfaction</br>
+    </p>
+  </div><br>  
+  <!-- End About Section -->
+  </div>
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Madison, US</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1 608 440 4913</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: surendrankri@wisc.edu</p>
+    </div>  
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
