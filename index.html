@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>W3.CSS Template</title>
+    <title>Athulya</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,39 +12,29 @@
     </style>
   </head>
 <body>
-
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
-  </div>
-</nav>
-
-<!-- Page Content -->
-<div class="w3-main w3-padding-large">
-
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
-
+	
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <a href="#" class="w3-image w3-hide-large w3-hide-small w3-round"><img src="Attachments/Surendran_Athulya_MSBA.jpg" alt="" /></a>
     <h1 class="w3-jumbo"><b>Athulya Surendran Krishnaleela</b></h1>
-    <img src="Attachments/Surendran_Athulya_MSBA.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-      <i class="fa fa-download"></i><a href="Attachments/Athulya Surendran Krishnaleela_CVds.pdf">Download Resume</a>
-    </button>
     <p><br><a href="https://github.com/AthulyaSK">Github</a></br></p>
     <p><br><a href="https://www.linkedin.com/in/athulya-sk/">LinkedIn</a></br></p>
   </header>
 
-  <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="portfolio">
+   <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Hello! I'm a motivated self-learner with a strong passion for data science and analytics. I hold a Master's in Business Analytics from the University of Wisconsin, Madison, and a Bachelor's in Electrical Engineering that sparked my love for problem-solving. 
+	My journey has equipped me with technical skills, and expertise in machine learning, optimization, and data analysis, enabling me to tackle diverse challenges. I have led workshops, conducted research, and mentored colleagues, all of which have enriched my ability to communicate complex ideas with clarity. I thrive on challenging projects and continuous learning, always staying ahead in this ever-evolving field. 
+	I'm excited to collaborate with organizations to achieve goals through data-driven decision-making, making a positive impact! If you wish to know more about me, check out my resume below
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i><a href="Attachments/Athulya Surendran Krishnaleela_CVds.pdf">Download Resume</a>
+    </button>
+    </p>
+	  
+    <!-- Portfolio Section -->
+   <div class="w3-padding-32 w3-content" id="portfolio">
     <h2 class="w3-text-grey">My Portfolio</h2>
     <hr class="w3-opacity">
 
@@ -54,7 +44,7 @@
       <div style="flex:1 0 calc(50% - 20px); margin-right: 20px;">
         <a href="https://github.com/AthulyaSK/Supply-chain-optimization">Supply Chain Optimization (Advanced Excel and Python)</a>
         <p><img src="Attachments/Supply chain project.png" style="width:100%"></p>
-        <p>Created a comprehensive optimization solution utilizing Excel Solver and Libraries like Python Pyomo to minimize total costs, inclusive of manufacturing, shipping and operating expenses, while ensuring fulfillment of demand and adherence to warehouse constraints.</p>
+        <p>Created a comprehensive optimization solution utilizing Excel Solver and Libraries like Python Pyomo to minimize total costs, including manufacturing, shipping and operating expenses, while ensuring demand fulfillment and adherence to warehouse constraints.</p>
       </div>
       <div style="flex:1 0 calc(50% - 20px); margin-right: 20px;"> 
         <a href="https://github.com/AthulyaSK/Advanced-Regression">Machine Learning House Price Prediction (Python)</a>
@@ -64,7 +54,7 @@
       <div style="flex:1 0 calc(50% - 20px);"> 
         <a href="https://github.com/AthulyaSK/Data-Inflation-Trends">US Covid Data Analysis (Tableau)</a>
         <p><img src="Attachments/Tableau.png" style="width:100%"></p>
-        <p>Analyzed COVID data in the USA from 2020-2022 to understand distribution of total number of covid cases by state with death count and created a Tableau dynamic Tableau dashboard to showcase the same.</p> 
+        <p>Analyzed COVID data in the USA from 2020-2022 to understand the distribution of total number of covid cases by state with death count and created a Tableau dynamic Tableau dashboard to showcase the same.</p> 
       </div>
       <div style="flex:1 0 calc(50% - 20px);"> 
         <a href="https://github.com/AthulyaSK/Data-Inflation-Trends">Inflation Trend Analysis (SQL/Snowflake)</a>
@@ -82,16 +72,10 @@
   <!-- End Portfolio Section -->
   </div>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>About</h2>
-    <hr class="w3-opacity">
-    <p>I am a highly motivated individual with a passion for data science and analytics for using data to solve complex business problems. I am a Master of Science in Business Analytics candidate from the University of Wisconsin-Madison and hold a Bachelor's degree in Electrical and Electronics Engineering from the National Institute of Technology, Calicut.
-I have a wide range of technical skills, including Python, R, SQL, Tableau, and many other tools, and have experience in machine learning, optimization, and data analysis. In my previous professional experience, I have worked in healthcare consulting, market research, IT operations and energy management, leading workshops, conducting research, and mentoring colleagues.
-My strength lies in my ability to apply my technical skills to real-world problems and communicate complex ideas in a clear and concise manner. I am a quick learner, adaptable, and passionate about helping organizations use data to make informed decisions.
-I look forward to collaborating with individuals and organizations to achieve their goals through data-driven insights.
-    </p>
-    <h3 class="w3-padding-16">My Skills</h3>
+ 
+	  
+    
+    <hr class="w3-opacity">  <h3 class="w3-padding-16">My Skills</h3>
     <p class="w3-wide">Tools</p>
     <div class="w3-light-grey">
       <ul style ="list-style:none;">
@@ -151,6 +135,7 @@ I look forward to collaborating with individuals and organizations to achieve th
         padding-right:5px;
       }
     </style>
+	  
     <h3 class="w3-padding-16">Education</h3>
     <h4 class="w3-wide">University of Wisconsin-Madison, Wisconsin School of Business, Madison, WI</h4>
     <p>Master of Science in Business Analytics Candidate (STEM OPT) (2022 - Present)</p>
